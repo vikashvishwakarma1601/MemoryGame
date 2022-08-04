@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/stylesheet/style.css" />
+    <link rel="stylesheet" href="./public/stylesheet/loader.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="loader">
+        <div class="pixel color--8a2be2" data-color="#8a2be2"></div>
+        <div class="pixel color--2b96e2" data-color="#2b96e2"></div>
+        <div class="pixel color--e2bb2b" data-color="#e2bb2b"></div>
+        <div class="pixel color--546e7a" data-color="#546e7a"></div>
+        <div class="pixel color--2be26c" data-color="#2be26c"></div>
+      </div>
+      <div class="wrapper">
+        <h1>Memory Game</h1>
+        <h2 class="gameOverText" >Game Over!</h2>
+        <div class="boxes">
+          <div class="box" id="0"></div>
+          <div class="box" id="1"></div>
+          <div class="box" id="2"></div>
+          <div class="box" id="3"></div>
+          <div class="box" id="4"></div>
+        </div>
+
+        <div class="menuOptions">
+            <button class="reset">Reset</button>
+            <button class="start">Start</button>
+            <div class="scoreWrapper">
+              <p>Score : <span class="score">0</span></p>
+              <p>Highest Score : <span class="highestScore">0</span></p>
+            </div>
+          </div>
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="./public/script/index.js"></script>
+  <script src="./public/script/Loader.js"></script>
+</html>

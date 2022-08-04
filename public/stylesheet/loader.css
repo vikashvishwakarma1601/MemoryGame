@@ -1,0 +1,52 @@
+#loader {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #loader .pixel {
+    border: none;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #loader .pixel {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+  }
+  .color-wrapper .pixel:hover {
+    transform: scale(1.2);
+  }
+  
+  .color-wrapper .pixel:active {
+    transform: scale(0.8);
+  }
+  
+  .color--8a2be2 {
+    background-color: #8a2be2;
+  }
+  
+  .color--2b96e2 {
+    background-color: #2b96e2;
+  }
+  
+  .color--2be26c {
+    background-color: #2be26c;
+  }
+  
+  .color--e2bb2b {
+    background-color: #e2bb2b;
+  }
+  .color--546e7a {
+    background-color: #546e7a;
+  }
